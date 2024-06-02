@@ -1,6 +1,5 @@
 import { trocarTema, verificarTema } from "./helpers/tema-helper.js"
 
-
 let tema = "claro"
 
 const botaoTema = document.querySelector(".tema button")
