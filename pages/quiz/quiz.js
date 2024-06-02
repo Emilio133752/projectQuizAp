@@ -85,7 +85,7 @@ function alterarSinais(texto) {
 function guardarResposta(evento) {
     resposta = evento.target.value
     idInputResposta = evento.target.id
-    
+
     const botaoEnviar = document.querySelector(".alternativas button")
     botaoEnviar.addEventListener("click", validarResposta)
 }
@@ -111,7 +111,6 @@ function validarResposta() {
     }
 
     pergunta = pergunta + 1
-    console.log(pergunta)
 }
 
 
